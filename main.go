@@ -24,8 +24,8 @@ func main() {
 	//fbtoken := os.Getenv("FB_TOKEN")
 
 	//args from command line
-	mgmtVIP := os.args[1]
-	fbtoken := os.args[2]
+	mgmtVIP := os.Args[1]
+	fbtoken := os.Args[2]
 
 	if mgmtVIP == "" {
 		fmt.Println("Must set environment variable FB_MGMT_VIP to FlashBlade management VIP.")
